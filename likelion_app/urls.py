@@ -19,5 +19,7 @@ from likelion_app import views
 urlpatterns = [
     path('', views.index),
     path('read/<id>/', views.read),
+    path('update/<id>/', views.update),
     path('create/', views.create),
+    path('delete/', views.delete),
 ]
